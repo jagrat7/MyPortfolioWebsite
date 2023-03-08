@@ -1,10 +1,4 @@
-.home {
-    width: 100%;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #3e497a;
-  }
-  
+
   .about {
     width: 100%;
     height: calc(100vh - 100px);
@@ -43,8 +37,11 @@
     align-items: center;
   }
   
-  .skills h1 {
+  .skills h3 {
     color: #3e497a;
+  }
+  .skills h1 {
+    color: #21325e;
   }
   
   .skills .list {
@@ -74,7 +71,29 @@
       padding: 0;
     }
   
-    .skills h2 {
+    .skills h3 {
       font-size: 30px;
     }
+  }
+
+  .navLinkLi{
+    cursor: pointer;
+    
+  }
+  .navLinkLi:hover{
+    color: #a2edfa;
+  }
+  .navLinkEM{
+    cursor: pointer;
+    
+  }
+  .navLinkEM:hover{
+    color: #d3d3d3;
+  }
+  .navLinkGit{
+    cursor: pointer;
+    
+  }
+  .navLinkGit:hover{
+    color: #2b2b2b;
   }

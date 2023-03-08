@@ -12,11 +12,11 @@ function ProjectItem({id,image,name,github, liveDemo}) {
   }
   return (
 
-    <div className="projectItem" onClick={handleClick}>
+    <div className="projectItem" >
         <div style={{ backgroundImage: `url(${image})` }} className="bgImage"></div>
         <h1>{name}</h1>
-        <span className='externalLink'><a href={"https://"+github}>  <GithubIcon></GithubIcon> </a></span>
-        <span className='externalLink'><a href={"https://"+liveDemo}> <GithubIcon></GithubIcon> </a></span>
+        <span className='externalLink'><a className='icon' href={github}>  <GithubIcon></GithubIcon> </a></span>
+        {/* <span className='externalLink'><a href={"https://"+liveDemo}> <GithubIcon></GithubIcon> </a></span> */}
     </div>  
     
 )}

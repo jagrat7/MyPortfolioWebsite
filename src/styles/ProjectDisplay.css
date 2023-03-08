@@ -22,7 +22,8 @@
     color: #3e497a;
   }
   
-  .project svg {
-    font-size: 60px;
-    color: #3e497a;
+  .gitIcon {
+
+    flex-shrink: 3;
+
   }

@@ -1,0 +1,20 @@
+.ExperienceTitle{
+    background-color: #21325e;
+    color: #ffffff;
+    font-size: 55px;
+    padding-top: 2%;
+    margin-bottom: 0.0;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.Experience{
+    
+    background-color: #21325e;
+    color: #161f47;
+
+}
+
+/* .bgC{
+    background-color: #3e497a;
+} */

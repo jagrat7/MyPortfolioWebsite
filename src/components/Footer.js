@@ -9,12 +9,11 @@ function Footer() {
   return (
         <div className="footer">
             <div className="socialMedia">
-                <InstagramIcon />
-                <TwitterIcon />
-                <FacebookIcon />
-                <LinkedInIcon />
+                <div ><a style={{ textDecoration: 'none', color:"white" }} classname="fLinks" href="https://drive.google.com/file/d/1gxGqKFcy-yCyyj8ap9sRHgZAFr4oLB-j/view?usp=sharing" >Resume</a></div>         
+                <div > <a style={{ textDecoration: 'none', color:"white" }} classname="fLinks"  href="mailto:jagratrao@gmail.com">Email</a></div>
+                <div ><a style={{ textDecoration: 'none', color:"white" }} classname="fLinks"  href="https://github.com/jagrat7">Github</a></div>
             </div>
-            <p> &copy; 2023 Jagrat Rao</p>
+            <p style={{ textDecoration: 'none', color:"white" }}> &copy; 2023 Jagrat Rao</p>
         </div> 
      )
 }
