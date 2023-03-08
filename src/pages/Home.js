@@ -11,7 +11,7 @@ function Home() {
     <div className="home">
       <div className="about">
         <h2>Hi, My name is Jagrat</h2>
-        <div className="prompt"><p>I am Master student in Software Engineering looking for exciting opportunities to grow my kexperince nowledge</p>
+        <div className="prompt"><p>I am Master student in Software Engineering looking for exciting opportunities to grow my knowledge</p>
        <a href="https://www.linkedin.com/in/jagrat-rao-9b730919b/"> <LinkedInIcon className='navLinkLi' /></a>
        <a href="mailto:jagratrao@gmail.com"><EmailIcon className='navLinkEM' /></a>
        <a href="https://github.com/jagrat7" ><GithubIcon  className='navLinkGit' /></a> 
