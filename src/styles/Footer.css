@@ -9,16 +9,28 @@
     padding-top: 10px;
     margin-top: 200px;
   }
-  
-  .socialMedia svg {
-    color: white;
-    margin: 20px;
-    font-size: 70px;
-    cursor: pointer;
+
+  .socialMedia{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+
+  }
+  .socialMedia.a:hover{
+    color: #082775;
+
+  }
+  .fLinks:hover{
+    color: #082775;
   }
   
   .footer p {
     color: white;
+    gap: 16px;
+    text-decoration: none;
   }
   
   @media only screen and (max-width: 600px) {

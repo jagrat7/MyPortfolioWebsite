@@ -86,3 +86,11 @@
       flex-direction: row;
     }
   }
+
+  .navLink{
+    cursor: pointer;
+    
+  }
+  .navLink:hover{
+    color: #e9d35b;
+  }

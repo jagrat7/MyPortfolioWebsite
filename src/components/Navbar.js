@@ -20,9 +20,9 @@ function Navbar() {
             </button>
         </div>
         <div className="links">
-            <Link to='/'>Home</Link>
-            <Link to='/projects '>Projects</Link>
-            <Link to='/experience'>Experince</Link>
+            <Link className='navLink' to='/'>Home</Link>
+            <a className='navLink' onClick={() => window.location.replace("/#exp")}>Experience</a>
+            <a  className='navLink' onClick={() => window.location.replace("/#proj")}>Projects</a>
         </div>
     </div>
   )
