@@ -12,7 +12,7 @@ export const ProjectList=[
     {
         name:"E-commerce Website",
         image:proj1,
-        github:"www.google.com",
+        github:"https://github.com/jagrat7/E-commerce---Edumart.git",
         skill:"angular, spring"
     },
     {
