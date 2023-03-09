@@ -11,7 +11,7 @@ export const ProjectList=[
     {
         name:"Db manger",
         image:proj2,
-        github:"www.google.com",
+        github:"https://github.com/jagrat7/E-commerce---Edumart.git",
         skill:"node.js, vanilla javascript"
 
     },
