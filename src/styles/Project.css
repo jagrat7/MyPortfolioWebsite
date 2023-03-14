@@ -50,9 +50,7 @@
   .projectItem h1 {
     font-size: 25px;
   }
-  .externalLink{
-    text-decoration: none;
-  }
+
   @media only screen and (max-width: 1300px) {
     .projectList {
       grid-template-columns: 1fr 1fr;
@@ -81,11 +79,11 @@
     padding-bottom: 4rem;
     display: flex;
     justify-content: center;
-}
-.icon{
-  text-decoration: none;
-  color: rgb(14, 14, 14);
-}
-.icon:hover{
-  color: rgb(117, 117, 117);
-}
+  }
+  .icon{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+  }
+  .icon:hover{
+    color: rgb(117, 117, 117);
+  }
