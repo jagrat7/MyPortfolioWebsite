@@ -89,9 +89,6 @@ function Home() {
           <li className='item'>
             <h3>Technologies</h3>
             <motion.span
-              initial={{ opacity: 0, x:"-100vw" }}
-              animate={{opacity:1, x:"0"}}
-              transition={{ease:"backInOut",duration:3}}
             > Angular, React, Nextjs, Nodejs, Express, AWS Cloud, Azure Cloud, Django, Git, Github, Gitlab, MySQL, Linux CLI, Assembly, Reinforment Machine Learning, Oracle Database, Trello, 
             Spring boot, Frontend Web development, AJAX, Pspice.</motion.span>
           </li>
