@@ -2,6 +2,8 @@ import React from 'react'
 import GithubIcon  from "@mui/icons-material/GitHub";
 import { useNavigate } from 'react-router-dom';
 import "../styles/Project.css"
+import { motion } from 'framer-motion';
+
 
 function ProjectItem({id,image,name,github, liveDemo}) {
 
@@ -13,12 +15,25 @@ function ProjectItem({id,image,name,github, liveDemo}) {
   }
   return (
 
-    <div className="projectItem" >
+    <motion.div 
+    className="projectItem" 
+    
+    whileHover={{
+      scale: [1,1.02, 1, 1.02,1],
+      transition: {
+        duration: 5,
+        repeat: "Infinity",
+        repeatType: "loop"
+      }  
+    }}
+    // onHoverEnd={{scale:1}}
+  
+    >
         <div style={{ backgroundImage: `url(${image})` }} className="bgImage"></div>
         <h1>{name}</h1>
         <span><a href={github}><GithubIcon className='icon'></GithubIcon></a></span>
         {/* <span className='externalLink'><a href={"https://"+liveDemo}> <GithubIcon></GithubIcon> </a></span> */}
-    </div>  
+    </motion.div>  
     
 )}
 

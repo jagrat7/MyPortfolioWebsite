@@ -13,10 +13,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image:  url("../assets/images/hero5.jpg");
+    background-image:  url("../assets/images/hero5-1.png");
     background-position: center;
     background-size: cover;
-    filter: blur(05px);
+    /* filter: blur(05px); */
     transform: scale(1.05);
     overflow: hidden;
 
@@ -82,7 +82,7 @@
   
   .skills .list {
     list-style: none;
-    width: 60%;
+    width: 60vw;
   }
  
   .list span {
@@ -118,6 +118,7 @@
   }
   .navLinkLi:hover{
     color: #a2edfa;
+
   }
   .navLinkEM{
     cursor: pointer;
