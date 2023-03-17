@@ -67,13 +67,15 @@ function Home() {
                 >
                 <motion.a                 
                  variants={inivIconsVariants}
-                 href="https://www.linkedin.com/in/jagrat-rao-9b730919b/"> <LinkedInIcon className='navLinkLi' /></motion.a>
+                 href="https://www.linkedin.com/in/jagrat-rao-9b730919b/"
+                 target="_blank"> <LinkedInIcon className='navLinkLi' /></motion.a>
                 <motion.a
                 variants={inivIconsVariants}
                 href="mailto:jagratrao@gmail.com"><EmailIcon className='navLinkEM' /></motion.a>
                 <motion.a
                 variants={inivIconsVariants}
-                href="https://github.com/jagrat7" ><GithubIcon  className='navLinkGit' /></motion.a> 
+                href="https://github.com/jagrat7" 
+                target="_blank"><GithubIcon  className='navLinkGit' /></motion.a> 
               </motion.div>
 
 
