@@ -68,14 +68,14 @@ function Home() {
                 <motion.a                 
                  variants={inivIconsVariants}
                  href="https://www.linkedin.com/in/jagrat-rao-9b730919b/"
-                 target="_blank"> <LinkedInIcon className='navLinkLi' /></motion.a>
+                 target="_blank" rel='noreferrer'> <LinkedInIcon className='navLinkLi' /></motion.a>
                 <motion.a
                 variants={inivIconsVariants}
                 href="mailto:jagratrao@gmail.com"><EmailIcon className='navLinkEM' /></motion.a>
                 <motion.a
                 variants={inivIconsVariants}
                 href="https://github.com/jagrat7" 
-                target="_blank"><GithubIcon  className='navLinkGit' /></motion.a> 
+                target="_blank" rel='noreferrer'><GithubIcon  className='navLinkGit' /></motion.a> 
               </motion.div>
 
 
