@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 .bgContainer{
   position: relative;
   /* background-color: #21325e; */
@@ -13,7 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image:  url("../assets/images/hero5-1.png");
+    background-image:  url("../assets/images/hero5LowRes.png");
     background-position: center;
     background-size: cover;
     /* filter: blur(05px); */
