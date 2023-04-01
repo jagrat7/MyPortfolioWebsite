@@ -1,0 +1,47 @@
+.skills {
+    z-index: 1;
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills h3 {
+    color: #3e497a;
+  }
+  .skills h1 {
+    color: #21325e;
+    margin-bottom: auto;
+  }
+  .tabCont {
+    font-size: 20px;
+    overflow-y: auto;
+    max-height: 40vh;
+  }
+  .indicator{
+    background-color: #3e497a;
+  }
+  .flexOn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    overflow-wrap: normal;
+
+  }
+  .iE{
+    position: relative;
+
+  }
+  @media (max-width: 600px) {
+    .tabCont .MuiPaper-root {
+      padding: 5px;
+      
+    }
+    .tabLabel {
+    font-size: smaller;
+    }
+  }

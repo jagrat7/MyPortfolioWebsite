@@ -1,4 +1,3 @@
-import React from 'react'
 import GithubIcon  from "@mui/icons-material/GitHub";
 import { useNavigate } from 'react-router-dom';
 import "../styles/Project.css"
@@ -31,7 +30,7 @@ function ProjectItem({id,image,name,github, liveDemo}) {
     >
         <div style={{ backgroundImage: `url(${image})` }} className="bgImage"></div>
         <h1>{name}</h1>
-        <span><a href={github}><GithubIcon className='icon'></GithubIcon></a></span>
+        <span><a href={github} target="_blank" ><GithubIcon className='icon'></GithubIcon></a></span>
         {/* <span className='externalLink'><a href={"https://"+liveDemo}> <GithubIcon></GithubIcon> </a></span> */}
     </motion.div>  
     

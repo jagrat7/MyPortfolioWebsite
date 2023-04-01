@@ -10,6 +10,7 @@ import Navbar from '../components/Navbar';
 import { motion, useScroll, useTransform  } from "framer-motion";
 import { duration } from '@mui/material';
 import { fadeIn } from '../utils/motionAnimations';
+import Skills from '../components/Skills';
 
 
 function Home() {
@@ -85,26 +86,7 @@ function Home() {
 
 
 
-      <div className="skills">
-        <h1>Skills</h1>
-        <ol className='list'>
-          <li className='item'>
-            <h3>Technologies</h3>
-            <motion.span
-            > Angular, React, Nextjs, Nodejs, Express, AWS Cloud, Azure Cloud, Django, Git, Github, Gitlab, MySQL, Linux CLI, Assembly, Reinforment Machine Learning, Oracle Database, Trello, 
-            Spring boot, Frontend Web development, AJAX, Pspice.</motion.span>
-          </li>
-          <li className='item'>
-            <h3>Languages</h3>
-            <span>JavaScript, Python, Java, MATLAB, C, C++, HTML, TypeScript, CSS, VHDL, UML, Verilog, SQL, PHP, Solidity.</span>
-          </li>
-          <li className='item'>
-            <h3>Other</h3>
-            <span>SCRUM, Agile, Drone, Drone mapping, Microsoft Office & Excel, Photoshop.</span>
-          </li>
-
-        </ol>
-      </div>
+      <Skills></Skills>
 
       <div id="exp">
         <h1 className=' ExperienceTitle'>My Experiences</h1>
