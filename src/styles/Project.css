@@ -87,3 +87,7 @@
   .icon:hover{
     color: rgb(117, 117, 117);
   }
+  .rm{
+    text-decoration: none;
+    color: #0a193f;
+  }

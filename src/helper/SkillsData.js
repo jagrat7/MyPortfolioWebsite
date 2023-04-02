@@ -1,7 +1,7 @@
 
 export const Technologies=[
-    "Angular", "React"," Nextjs", "Nodejs", "Express", "AWS Cloud", "Django", "Git", "Github", "Gitlab", "MySQL", "Linux CLI", "Assembly", "Oracle Database", "Trello",
-                        "Spring boot"," Frontend Web development", "AJAX", "Pspice"
+    "Angular", "React", "Nodejs", "Express", "AWS Cloud", "Django", "Git", "Github", "Gitlab", "MySQL", "Linux CLI", "Assembly","Embbeded Systems", "Oracle Database", "Trello",
+                        "Spring boot","AJAX", "Pspice"
 
 ] ;
 export const Languages=[
