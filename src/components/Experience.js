@@ -42,8 +42,22 @@ function Experience() {
           </p>
         </VerticalTimelineElement>
 
+
+
+        <VerticalTimelineElement className='vertical-timeline-element--work bgC' 
+        date='June 2023 - August 2023'
+        contentStyle={{ background: '#3e497a', color: '#fff' }}
+        iconStyle={{ background: "#3e497a", color: "#ffef" }}
+        icon={<WorkIcon />}>
+          <h3 className="vertical-timeline-element-title">Onixnet – Solutions intern </h3>
+          <p>
+            Created terraform scripts to automate a template for GCP resources for customers. Used AI and data filtering tools to generate customer success stories given large unsorted and unlabeled data.
+
+          </p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement className='vertical-timeline-element--education bgC' 
-        date='August 2022 - current'
+        date='August 2022 - Current'
         contentStyle={{ background: '#3e497a', color: '#fff' }}
         iconStyle={{ background: "#3e497a", color: "#fff" }}
         icon={<SchoolIcon />}>
