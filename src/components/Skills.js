@@ -18,7 +18,7 @@ const Skills = () => {
     return (
         <div className="skills">
             <h1>Skills</h1>
-            <Box sx={{ width: '75%', minHeight: "45vh" }}>
+            <Box sx={{ width: '75%', minHeight: "50vh" }}>
                 <TabContext sx={{ textAlign: "center" }} value={value}>
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                         <TabList TabIndicatorProps={{ style: { background: '#3e497a' } }}
