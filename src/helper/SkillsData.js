@@ -65,7 +65,6 @@ export const Languages = [
     { name: "C++", image: l6 },
     { name: "JSON", image: l10 },
     { name: "HCL", image: l11 },
-    { name: "MATLAB", image: l4 },
     // { name: "VHDL", image: l12 },
     // { name: "UML", image: l13 },
     // { name: "Verilog", image: l14 },
