@@ -65,7 +65,7 @@ function Experience() {
             Implemented a logger middleware facilitating engineers to correlate backend logs with test failures using a correlation
             ID, thereby reducing debug time for failed integration tests by approximately 75%. Additionally, optimized log storage to
             decrease disk usage from logs by 45%. Currently developing support tooling to proactively block potential DDoS attacks through a REST framework middleware
-            solutio
+            solution.
           </p>
         </VerticalTimelineElement>
 
