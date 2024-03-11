@@ -13,6 +13,10 @@ import lin from "../assets/images/icons8-console-50.png";
 import ordb from "../assets/images/icons8-oracle-logo.svg";
 import trello from "../assets/images/icons8-trello.svg";
 import notion from "../assets/images/icons8-notion.svg";
+import docker from "../assets/images/icons8-docker.svg";// 
+import grfa from "../assets/images/icons8-grafana.svg";// 
+
+
 
 import l1 from "../assets/images/icons8-javascript.svg";
 import l2 from "../assets/images/icons8-python.svg";
@@ -36,6 +40,12 @@ import drone from "../assets/images/icons8-drone-50.png";//
 import gwrk from "../assets/images/icons8-google-calendar.svg";// 
 import ps from "../assets/images/icons8-photoshop.svg";// 
 
+
+
+
+
+
+
 export const Technologies = [
     { name: "AWS Cloud", image: aws },
     { name: "GCP", image: google },
@@ -46,11 +56,13 @@ export const Technologies = [
     { name: "Oracle Database", image: ordb },
     { name: "MySQL", image: mysql },
     { name: "MATLAB", image: l4 },
+    { name: "Django", image: dj },
+    { name: "Docker", image: docker },
+    { name: "Grafana", image: grfa },
     { name: "React" ,image: react},
     { name: "Nodejs", image: node },
     { name: "Angular", image: ang },
     { name: "Spring boot", image: sb },
-    { name: "Django", image: dj },
 
  
     // { name: "Pspice", image: null }

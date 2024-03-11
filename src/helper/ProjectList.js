@@ -12,7 +12,7 @@ export const ProjectList=[
         github:"https://github.com/jagrat7/sign2text.git",
         skill:"ansadasgular, asasdasds",
         mrfile:Sign2textMR,
-        skills:[Technologies[0].image, Technologies[2].image,Technologies[9].image,Technologies[10].image,Languages[5].image]
+        skills:[Technologies[0].image, Technologies[2].image,,Technologies[10].image,Technologies[13].image,Technologies[12].image,Languages[5].image]
     },
     {
         name:"E-commerce Website",
@@ -20,7 +20,7 @@ export const ProjectList=[
         github:"https://github.com/jagrat7/E-commerce---Edumart.git",
         skill:"angular, spring",
         mrfile:null,
-        skills:[Technologies[11].image, Technologies[12].image]
+        skills:[Technologies[14].image, Technologies[15].image]
 
 
     },
@@ -30,7 +30,7 @@ export const ProjectList=[
         github:"https://github.com/jagrat7/Database-Analytics---DAM.git",
         skill:"node.js, vanilla javascript",
         mrfile:null,
-        skills:[Technologies[10].image, Technologies[6].image]
+        skills:[Technologies[13].image, Technologies[6].image]
     },
     {
         name:"ML- Employee Attrition",
