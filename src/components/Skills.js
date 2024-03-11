@@ -14,14 +14,13 @@ const Skills = () => {
             <h1>Skills</h1>
             <Box sx={{
                 width: '65%', minHeight: "35vh",
-                marginTop: '3.1%'
+                marginTop: '3%'
             }}>
 
                 <div className="iE">
                     <Box className=" flexOn" sx={{}}>
                         <Marquee
                             speed={15}
-                            pauseOnHover={true}
                             direction="right"
                             autoFill={true}
 
@@ -49,7 +48,6 @@ const Skills = () => {
                     <Box className=" flexOn" sx={{ marginTop: "2%" }} >
                         <Marquee
                             speed={15}
-                            pauseOnHover={true}
                             direction="left"
                             autoFill={true}
 
@@ -70,7 +68,6 @@ const Skills = () => {
                     <Box className=" flexOn" sx={{ marginTop: "2%" }} >
                         <Marquee
                             speed={15}
-                            pauseOnHover={true}
                             direction="right"
                             autoFill={true}
                         >
