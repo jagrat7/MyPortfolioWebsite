@@ -16,9 +16,6 @@ function ProjectDisplay() {
             <p>
                 <b>Skills:</b> {project.skill}
             </p>
-            <div className='gitIcon'>
-            <GithubIcon></GithubIcon>
-            </div>
         </div>    
     )
 }

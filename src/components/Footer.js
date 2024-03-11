@@ -9,7 +9,7 @@ function Footer() {
   return (
         <div className="footer">
             <div className="socialMedia">
-                <div ><a style={{ textDecoration: 'none', color:"white" }} classname="fLinks" href="https://drive.google.com/file/d/1gxGqKFcy-yCyyj8ap9sRHgZAFr4oLB-j/view?usp=sharing" 
+                <div ><a style={{ textDecoration: 'none', color:"white" }} classname="fLinks" href="https://drive.google.com/file/d/1Jdph86SzSS3D1rm3ENZ9I3Mc5q5kfYlI/view?usp=sharing" 
                 target="_blank" rel='noreferrer'>Resume</a></div>         
                 <div > <a style={{ textDecoration: 'none', color:"white" }} classname="fLinks"  href="mailto:jagratrao@gmail.com"
                 target="_blank" rel='noreferrer'>Email</a></div>

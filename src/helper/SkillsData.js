@@ -29,27 +29,30 @@ import l11 from "../assets/images/icons8-terraform.svg";//
 // import l14 from "../assets/images/your_image_14.svg"; // Replace "your_image_14.svg" with the actual path to your image
 import l15 from "../assets/images/icons8-sql-48.png"; // Replace "your_image_15.svg" with the actual path to your image
 import l16 from "../assets/images/Go-Logo_LightBlue.svg";// 
-
-
+import scrum from "../assets/images/icons8-scrum-64.png";// 
+import Microsoft from "../assets/images/icons8-microsoft-office-2019.svg";// 
+import Iot from "../assets/images/icons8-iot-64.png";// 
+import drone from "../assets/images/icons8-drone-50.png";// 
+import gwrk from "../assets/images/icons8-google-calendar.svg";// 
+import ps from "../assets/images/icons8-photoshop.svg";// 
 
 export const Technologies = [
     { name: "AWS Cloud", image: aws },
     { name: "GCP", image: google },
     { name: "Terraform", image: l11 },
+    { name: "Git", image: git },
+    { name: "Github", image: github },
+    { name: "Gitlab", image: gitlab },
+    { name: "Oracle Database", image: ordb },
+    { name: "MySQL", image: mysql },
+    { name: "MATLAB", image: l4 },
     { name: "React" ,image: react},
     { name: "Nodejs", image: node },
     { name: "Angular", image: ang },
     { name: "Spring boot", image: sb },
     { name: "Django", image: dj },
-    { name: "Git", image: git },
-    { name: "Github", image: github },
-    { name: "Gitlab", image: gitlab },
-    { name: "MySQL", image: mysql },
-    { name: "Oracle Database", image: ordb },
-    { name: "Linux CLI", image: lin },
-    { name: "MATLAB", image: l4 },
-    { name: "Trello", image: trello },
-    { name: "Notion", image: notion },
+
+ 
     // { name: "Pspice", image: null }
 ];
 
@@ -64,7 +67,6 @@ export const Languages = [
     { name: "C", image: l5 },
     { name: "C++", image: l6 },
     { name: "JSON", image: l10 },
-    { name: "HCL", image: l11 },
     // { name: "VHDL", image: l12 },
     // { name: "UML", image: l13 },
     // { name: "Verilog", image: l14 },
@@ -73,11 +75,13 @@ export const Languages = [
 
 
 export const Other = [
-    { name: "SCRUM", image: null },
-    { name: "Agile", image: null },
-    { name: "Drone", image: null },
-    { name: "Drone mapping", image: null },
-    { name: "Microsoft Office & Excel", image: null },
-    { name: "Google Workspace", image: null },
-    { name: "Photoshop", image: null }
+    { name: "SCRUM/Agile", image: scrum },
+    { name: "Drones", image: drone },
+    { name: "IoT devices", image: Iot },
+    { name: "Linux CLI", image: lin },
+    { name: "Microsoft Office", image: Microsoft },
+    { name: "Google Workspace", image: gwrk },
+    { name: "Photoshop", image: ps },
+    { name: "Trello", image: trello },
+    { name: "Notion", image: notion },
 ];

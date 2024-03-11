@@ -2,9 +2,11 @@ import GithubIcon from "@mui/icons-material/GitHub";
 import { useNavigate } from 'react-router-dom';
 import "../styles/Project.css"
 import { motion } from 'framer-motion';
+import { Box, Avatar } from "@mui/material";
 
 
-function ProjectItem({ id, image, name, github, liveDemo }) {
+
+function ProjectItem({ id, image, name, github, icons }) {
 
   const navigate = useNavigate()
 
@@ -30,8 +32,10 @@ function ProjectItem({ id, image, name, github, liveDemo }) {
       >
         <div style={{ backgroundImage: `url(${image})` }} className="bgImage"></div>
         <h1>{name}</h1>
-        <span><GithubIcon className='icon'></GithubIcon></span>
-        {/* <span className='externalLink'><a href={"https://"+liveDemo}> <GithubIcon></GithubIcon> </a></span> */}
+        <Box sx={{display:"flex",flexDirection:"row",justifyContent:"center"}}>{icons.map((ic, i) =>
+          <Avatar key={i} sx={{ width: 30, height: 30, paddingRight:"3%" }} src={ic} />
+
+        )}</Box>
       </motion.div>
     </a>
 

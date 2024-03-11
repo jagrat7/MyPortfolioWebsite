@@ -25,12 +25,13 @@
   .flexOn{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: center;
+    flex-wrap: nowrap; 
+    /* justify-content: center; */
     gap: 20px;
-    position: absolute;
-    overflow-wrap: normal;
-
+    position: relative;
+    /* overflow-wrap: normal; */
+    overflow: hidden;
+    white-space: nowrap;
   }
   .iE{
     position: relative;

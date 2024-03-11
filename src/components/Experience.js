@@ -76,7 +76,7 @@ function Experience() {
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">Rochester Institute of Technology, Rochester, NY</h3>
           <p>Master of Science in Software Engineering </p>
-          <p>GPA 3.78</p>
+          <p>GPA 3.85</p>
         </VerticalTimelineElement>
 
       </VerticalTimeline>
