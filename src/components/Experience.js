@@ -25,9 +25,9 @@ function Experience() {
           contentStyle={{ background: '#3e497a', color: '#fff' }}
           iconStyle={{ background: "#3e497a", color: "#ffef" }}
           icon={<WorkIcon />}>
-          <h3 className="vertical-timeline-element-title">Copycat – Employee trainee </h3>
-          <p>Worked on a full-stack Node.js web development project. The application involved providing enterprises with the ability to monitor their databases and servers.
-            Node.js was used in the backend and vanilla JavaScript was used for the frontend.
+          <h3 className="vertical-timeline-element-title">Copycat – Software Development Team Trainee </h3>
+          <p>
+            Developed a comprehensive full-stack web application to address the challenge of determining server hard drive installation timing and cost estimation for enterprises, featuring a robust user authentication and registration system with admin approval and diverse visual analytics capabilities.
           </p>
         </VerticalTimelineElement>
 
@@ -36,7 +36,7 @@ function Experience() {
           contentStyle={{ background: '#3e497a', color: '#fff' }}
           iconStyle={{ background: "#3e497a", color: "#ffef" }}
           icon={<WorkIcon />}>
-          <h3 className="vertical-timeline-element-title">Astral aerial – Intern</h3>
+          <h3 className="vertical-timeline-element-title">Astral aerial – Software Intern</h3>
           <p>Worked on a front-end web development project. The application provided users with the ability to take tests for the drone flighting theory and practical test as well as advertising for the school. Django framework was used for both front end and backend.
             Projects using drones e.g., drone mapping, drone surveillance. Drone Mapping field work was done where I flew and mapped areas of a farm.
           </p>
@@ -49,10 +49,9 @@ function Experience() {
           contentStyle={{ background: '#3e497a', color: '#fff' }}
           iconStyle={{ background: "#3e497a", color: "#ffef" }}
           icon={<WorkIcon />}>
-          <h3 className="vertical-timeline-element-title">Onixnet – Solutions intern </h3>
+          <h3 className="vertical-timeline-element-title">Onixnet – Cloud Solutions Intern </h3>
           <p>
-            Created terraform scripts to automate a template for GCP resources for customers. Used AI and data filtering tools to generate customer success stories given large unsorted and unlabeled data.
-
+            Led a team of two to build default Google Cloud infrastructure for customers using Terraform. Created a business metrics dashboard for the C-suite using Google Workspace tools, employing AI tools and processing data through cleaning and enrichment to extract relevant insights from various datasets.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement className='vertical-timeline-element--work bgC'
@@ -64,19 +63,19 @@ function Experience() {
           <p>
             Implemented a logger middleware facilitating engineers to correlate backend logs with test failures using a correlation
             ID, thereby reducing debug time for failed integration tests by approximately 75%. Additionally, optimized log storage to
-            decrease disk usage from logs by 45%. Currently developing support tooling to proactively block potential DDoS attacks through a REST framework middleware
+            decrease disk usage from logs by 45%. Developed support tooling to proactively block potential DDoS attacks through a REST framework middleware
             solution.
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement className='vertical-timeline-element--education bgC'
-          date='August 2022 - Current'
+          date='August 2022 - May 2024'
           contentStyle={{ background: '#3e497a', color: '#fff' }}
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}>
           <h3 className="vertical-timeline-element-title">Rochester Institute of Technology, Rochester, NY</h3>
           <p>Master of Science in Software Engineering </p>
-          <p>GPA 3.85</p>
+          <p>GPA 3.89</p>
         </VerticalTimelineElement>
 
       </VerticalTimeline>
