@@ -60,7 +60,7 @@ function Home() {
               initial="hidden"
               animate="visiable"
               transition={{delay:1, duration:2.5}}
-              className="prompt"><p>I am Msc in Software Engineering graduating 2024, looking for exciting opportunities to grow my knowledge</p>
+              className="prompt"><p>I am Msc in Software Engineering graduate, looking for exciting opportunities to grow my knowledge</p>
               <motion.div
                 variants={iconsVariants}
                 initial="hidden"

@@ -39,7 +39,7 @@ import Iot from "../assets/images/icons8-iot-64.png";//
 import drone from "../assets/images/icons8-drone-50.png";// 
 import gwrk from "../assets/images/icons8-google-calendar.svg";// 
 import ps from "../assets/images/icons8-photoshop.svg";// 
-
+import postgres from "../assets/images/icons8-postgresql.svg"
 
 
 
@@ -47,8 +47,8 @@ import ps from "../assets/images/icons8-photoshop.svg";//
 
 
 export const Technologies = [
-    { name: "AWS Cloud", image: aws },
-    { name: "GCP", image: google },
+    { name: "AWS Cloud", image: aws }, //0
+    { name: "GCP", image: google }, //1
     { name: "Terraform", image: l11 },
     { name: "Git", image: git },
     { name: "Github", image: github },
@@ -63,6 +63,7 @@ export const Technologies = [
     { name: "Nodejs", image: node },
     { name: "Angular", image: ang },
     { name: "Spring boot", image: sb },
+    { name: "PostgreSQL", image: postgres },
 
  
     // { name: "Pspice", image: null }
