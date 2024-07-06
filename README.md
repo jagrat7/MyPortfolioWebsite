@@ -1,5 +1,4 @@
 "# MyPortfolioWebsite" 
-A database analytics web app for oracle database
 Live Demo: https://jagrat-portfolio.vercel.app
 
 ## Prerequisites
