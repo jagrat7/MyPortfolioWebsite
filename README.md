@@ -1,5 +1,6 @@
 "# MyPortfolioWebsite" 
 A database analytics web app for oracle database
+Live Demo: https://jagrat-portfolio.vercel.app
 
 ## Prerequisites
 - Node
@@ -10,5 +11,3 @@ A database analytics web app for oracle database
 2. execute `npm i`
 3. execute `yarn start`
 
-## Demo
-Live Demo: https://jagrat-portfolio.vercel.app
